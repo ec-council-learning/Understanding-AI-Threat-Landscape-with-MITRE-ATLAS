@@ -1,0 +1,10 @@
+SYNTHETIC OSINT NOTES (fabricated for training -- nothing here is real)
+=======================================================================
+- Public conference page lists Jordan as a speaker at "FinOps Connect 2025",
+  talk title "Closing the books faster with automation".
+- A (fake) press release says Northwind Logistics just signed a vendor named
+  "Cascade Freight Partners" for Q3 carrier capacity.
+- Jordan's (fake) public post: "Day 2 of FinOps Connect and my coffee budget is
+  the real casualty. Back to invoices Monday!"
+- Northwind's AP process (from a fabricated job posting): invoices over $25k need
+  VP Finance sign-off before payment release in Bill.com.
