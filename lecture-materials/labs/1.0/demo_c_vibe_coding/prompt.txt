@@ -1,0 +1,8 @@
+The kind of prompt a developer "vibe-codes" with -- fast, vague, no security ask:
+
+  "Quickly build me a Flask file-upload route so users can upload a file and we
+   save it to an uploads folder. Keep it short."
+
+The generated_upload_route.py next to this file is a representative result: it works,
+it's short, and it ships three silent flaws. Demo C runs a second AI pass that
+reviews that code -- catching what the first "just make it work" pass left behind.
