@@ -23,9 +23,24 @@ sandbox file it creates and deletes itself.
 
 ## 2. Choose a backend
 
-Set this once in the terminal you run the demos from.
+Set this once in the terminal you run the demos from. Any option produces the same
+kind of result on screen.
 
-**Option A — free local model (recommended):**
+**Option A — Claude Code (claude CLI):**
+```bash
+# install from claude.com/claude-code and log in once, then:
+export LLM_BACKEND=claude_cli
+```
+Uses your existing Claude Code login — no API key needed.
+
+**Option B — Codex (codex CLI):**
+```bash
+# install from the OpenAI Codex CLI and log in once, then:
+export LLM_BACKEND=codex_cli
+```
+Uses your existing Codex login — no API key needed.
+
+**Option C — free local model (Ollama):**
 ```bash
 # install Ollama from ollama.com, then:
 ollama pull llama3.2:3b
@@ -34,12 +49,11 @@ export LLM_BACKEND=ollama
 ```
 Lighter machine? Use `ollama pull llama3.2:1b` and `export OLLAMA_MODEL=llama3.2:1b`.
 
-**Option B — no model at all (offline):**
+**Option D — no model at all (offline):**
 ```bash
 export LLM_BACKEND=offline
 ```
-The demos print a built-in sample instead of calling a model. The result on screen
-is the same.
+The demos print a built-in sample instead of calling a model.
 
 Each script prints a banner saying whether its output came from a **live model** or
 a **staged sample**. If a model is missing or a call fails, the demo automatically
